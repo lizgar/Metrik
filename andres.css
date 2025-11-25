@@ -1,0 +1,44 @@
+@font-face {
+
+    font-family: titulos;
+    src: url(Archivos/font/BarlowCondensed-Bold.ttf);
+}
+body{
+    background-image: url(Archivos/img1/Mesa\ de\ trabajo\ 7.jpg);
+    background-repeat: no-repeat;
+        margin: 0 !important;
+    padding: 0 !important;
+     box-sizing: border-box !important;
+    background-color:black !important;
+background-size: 100% !important;
+overflow-x: hidden !important;
+}
+:root{
+
+    --red-1: #fdad00 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+#imagen{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+img{
+   width: 40%;
+}
+h1{
+      text-align: center;
+    width: 30%;
+    font-size: 8.472rem;
+    font-family: titulos;
+    color: white;
+}
+
+@media only screen and (max-width: 600px){
+body{
+      background-image: url(Archivos/img2/Mesa\ de\ trabajo\ 1.jpg);
+          background-repeat: none;
+      width: 100%;
+}
+}

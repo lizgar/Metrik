@@ -1,0 +1,1010 @@
+html {
+    overscroll-behavior: auto !important;
+    touch-action: auto !important;
+    scroll-behavior: smooth !important;
+}
+
+@font-face {
+
+    font-family: letra;
+    src: url(Archivos/font/BarlowCondensed-ExtraLight.ttf);
+}
+@font-face {
+
+    font-family: titulos;
+    src: url(Archivos/font/BarlowCondensed-Bold.ttf);
+}
+@font-face {
+
+    font-family: boton;
+    src: url(Archivos/font/Coolvetica\ Rg.otf);
+}
+:root{
+--swiper-theme-color: #ffffff !important;
+    --red-1: #fdad00 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+body{
+ 
+
+    margin: 0 !important;
+    padding: 0 !important;
+     box-sizing: border-box !important;
+    background-color:black !important;
+background-size: 100%;
+overflow-x: hidden;
+}
+#contenedor-mascota {
+    position: fixed;
+    bottom: 30px;
+    left: 1700px;
+    z-index: 1000;
+    text-align: center;
+  }
+
+  #mascota {
+    width: 120px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  #mascota:hover {
+    transform: scale(1.1);
+  }
+
+  #mensaje-mascota {
+    display: none;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 220px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    position: absolute;
+    top: -20px;
+    left: -80px;
+    font-size: 14px;
+  }
+
+  #boton-hablar {
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    background-color: #FFCC00;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1001;
+  }
+
+  #boton-hablar:hover {
+    background-color: #ff9e00;
+  }
+
+
+#mensaje-mascota{
+    font-family: boton !important;
+}
+
+
+
+span{
+    font-family: boton !important;
+}
+h1 {
+    font-family: titulos;
+}
+h2 {
+    font-family: titulos;
+}
+a{
+    font-family: titulos;
+}
+h3{
+    font-family: titulos;
+}
+button {
+    font-family: boton !important;
+}
+p{
+    font-family: letra;
+}
+header{
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
+}
+header #primeraparte{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#primeraparte img{
+    width: 18em;
+}
+
+#primeraparte #barras{
+    width: 4em !important;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.618rem !important;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+    font-family: titulos !important;
+}
+.boton1{
+    background: none;
+    color: #fdd937;
+}
+
+.boton1 svg{
+    width: 8em;
+    height: 2.5em;
+    position: absolute;
+}
+
+.boton1 rect{
+    width: 8em;
+    height: 2.5em;
+    stroke: #fdd937;
+    stroke-width: 5px;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    transition: .6s ease all;
+}
+.boton1:hover rect{
+    stroke-dashoffset: 0;
+}
+.boton2{
+    background: none;
+    color: #fdd937;
+}
+
+.boton2 svg{
+    width: 8em;
+    height: 2.5em;
+    position: absolute;
+}
+
+.boton2 rect{
+    width: 8em;
+    height: 2.5em;
+    stroke: #fdd937;
+    stroke-width: 5px;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    transition: .6s ease all;
+}
+.boton2:hover rect{
+    stroke-dashoffset: 0;
+}
+
+#grupal{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#grupal img{
+    width: 120em !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#tr{
+    scroll-behavior: none;
+    background-color: #000000;
+    margin-top: 5em;
+    margin-bottom: 10em;
+}
+#tr p{
+   color:#fdd937 ;
+   font-size: 5rem;
+  
+  align-items: center;
+  text-align: center;
+}
+
+#tr h1{
+   color:#fdd937 ;
+   font-size: 15rem;
+   padding-bottom: -0.2em;
+  align-items: center;
+  text-align: center;
+}
+
+
+#tre{
+    scroll-behavior: none;
+    background-color: #000000;
+    margin-top: 5em;
+    margin-bottom: 10em;
+}
+
+#tre #nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#tre #nosotrosdos{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10em;
+}
+ .swiper {
+    
+      width: 180em;
+      height: 90em;
+    }
+
+    .swiper-slide {
+      text-align: center !important;
+      display: flex;
+      justify-content: center !important;
+      align-items: center !important;
+    }
+
+    .swiper-slide img {
+      display: block !important;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+          #tre .swiper-slide{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+           background-image: url(Archivos/PNG\ PORTAFOLIO/FONDO/FONDO.jpg);
+       }
+
+    #tre .swiper-slide .daniel {
+        width: 90%!important;
+        mix-blend-mode: overlay;
+        padding-top: -10em;
+    }
+    #tre .swiper-slide .daniel2 {
+        width: 130em !important;
+        position: absolute;
+        left: 250px;
+        bottom: 0;
+
+    }
+    .swiper-slide .daniel2 img{
+        cursor: pointer;
+    width: 4em;
+    transition: color 0.3s ease;
+    margin-inline: 1em;
+    transition: 0.5s ease;
+}
+.swiper-slide .daniel2:hover{
+            cursor: pointer;
+    -webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 0.5s ease;
+}
+.swiper-slide .daniel2{
+    transition: 0.5s ease;
+}
+       #tre .swiper-slide .daniel3 {
+        width: 90%!important;
+        position: absolute;
+    }
+
+           #tre .swiper-slide{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+           background-image: url(Archivos/PNG\ PORTAFOLIO/FONDO/FONDO.jpg);
+       }
+
+    #tre .swiper-slide .marcela {
+        width: 90%!important;
+        mix-blend-mode: overlay;
+        padding-top: -10em;
+    }
+    #tre .swiper-slide .marcela2 {
+        width: 130em !important;
+        position: absolute;
+        left: 250px;
+        bottom: 0;
+
+    }
+    .swiper-slide .marcela2 img{
+        cursor: pointer;
+    width: 4em;
+    transition: color 0.3s ease;
+    margin-inline: 1em;
+    transition: 0.5s ease;
+}
+.swiper-slide .marcela2:hover{
+            cursor: pointer;
+    -webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 0.5s ease;
+}
+.swiper-slide .marcela2{
+    transition: 0.5s ease;
+}
+       #tre .swiper-slide .marcela3 {
+        width: 90%!important;
+        position: absolute;
+    }
+
+#tre .swiper-slide{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+           background-image: url(Archivos/PNG\ PORTAFOLIO/FONDO/FONDO.jpg);
+       }
+
+    #tre .swiper-slide .andres {
+        width: 90%!important;
+        mix-blend-mode: overlay;
+        padding-top: -10em;
+    }
+    #tre .swiper-slide .andres2 {
+        width: 130em !important;
+        position: absolute;
+        left: 250px;
+        bottom: 0;
+
+    }
+    .swiper-slide .andres2 img{
+        cursor: pointer;
+    width: 4em;
+    transition: color 0.3s ease;
+    margin-inline: 1em;
+    transition: 0.5s ease;
+}
+.swiper-slide .andres2:hover{
+            cursor: pointer;
+    -webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 0.5s ease;
+}
+.swiper-slide .andres2{
+    transition: 0.5s ease !important;
+}
+       #tre .swiper-slide .andres3 {
+        width: 90%!important;
+        position: absolute;
+    }
+    
+#tre .swiper-slide{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+           background-image: url(Archivos/PNG\ PORTAFOLIO/FONDO/FONDO.jpg);
+       }
+   #tre .swiper-slide .duvan {
+        width: 90%!important;
+        mix-blend-mode: overlay;
+        padding-top: -10em;
+    }
+    #tre .swiper-slide .duvan2 {
+        width: 130em !important;
+        position: absolute;
+        left: 250px;
+        bottom: 0;
+
+    }
+    .swiper-slide .duvan2 img{
+        cursor: pointer;
+    width: 4em;
+    transition: color 0.3s ease;
+    margin-inline: 1em;
+    transition: 0.5s ease;
+}
+.swiper-slide .duvan2:hover{
+            cursor: pointer;
+    -webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 0.5s ease;
+}
+.swiper-slide .duvan2{
+    transition: 0.5s ease !important;
+}
+       #tre .swiper-slide .duvan3 {
+        width: 90%!important;
+        position: absolute;
+    }
+    #tre .swiper-slide{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+           background-image: url(Archivos/PNG\ PORTAFOLIO/FONDO/FONDO.jpg);
+       }
+   #tre .swiper-slide .vanessa {
+        width: 90%!important;
+        mix-blend-mode: overlay;
+        padding-top: -10em;
+    }
+    #tre .swiper-slide .vanessa2 {
+        width: 130em !important;
+        position: absolute;
+        left: 250px;
+        bottom: 0;
+
+    }
+    .swiper-slide .vanessa2 img{
+        cursor: pointer;
+    width: 4em;
+    transition: color 0.3s ease;
+    margin-inline: 1em;
+    transition: 0.5s ease;
+}
+.swiper-slide .vanessa2:hover{
+            cursor: pointer;
+    -webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 0.5s ease;
+}
+.swiper-slide .vanessa2{
+    transition: 0.5s ease !important;
+}
+       #tre .swiper-slide .vanessa3 {
+        width: 90%!important;
+        position: absolute;
+    }
+    #tre .swiper-slide{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+           background-image: url(Archivos/PNG\ PORTAFOLIO/FONDO/FONDO.jpg);
+       }
+   #tre .swiper-slide .cesar {
+        width: 90%!important;
+        mix-blend-mode: overlay;
+        padding-top: -10em;
+    }
+    #tre .swiper-slide .cesar2 {
+        width: 130em !important;
+        position: absolute;
+        left: 250px;
+        bottom: 0;
+
+    }
+    .swiper-slide .cesar2 img{
+        cursor: pointer;
+    width: 4em;
+    transition: color 0.3s ease;
+    margin-inline: 1em;
+    transition: 0.5s ease;
+}
+.swiper-slide .cesar2:hover{
+            cursor: pointer;
+    -webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 0.5s ease;
+}
+.swiper-slide .cesar2{
+    transition: 0.5s ease !important;
+}
+       #tre .swiper-slide .cesar3 {
+        width: 90%!important;
+        position: absolute;
+    }
+    
+footer {    
+    background-color: #fdad00; 
+    padding: 40px 20px
+    
+}
+#foo{
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+.footer-container {
+
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+    min-width: 250px;
+    margin-right: 20px;
+}
+
+.footer-section h3 {
+    font-size: 2.618rem;
+    margin-bottom: 15px ;
+    color: #000000; 
+}
+
+.footer-section p, .footer-section ul {
+    font-size: 2.618rem;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #000000; 
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons img{
+        cursor: pointer;
+    width: 4em;
+    transition: color 0.3s ease;
+    margin-inline: 1em;
+    transition: 0.5s ease;
+}
+.social-icons img:hover{
+            cursor: pointer;
+    -webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 0.5s ease;
+}
+
+.sena img{
+    padding-top: 1em;
+    width: 22em !important;
+}
+
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #111;
+    font-size: 2.618rem;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+@media only screen and (max-width: 1536px){
+
+     #contenedor-mascota {
+    bottom: 30px;
+    left: 1370px;
+    z-index: 1000;
+  }
+
+  #tre .swiper-slide .daniel2 {
+    left: 200px;
+  }
+    #tre .swiper-slide .marcela2 {
+    left: 180px;
+  }
+    #tre .swiper-slide .andres2 {
+    left: 160px;
+  }
+    #tre .swiper-slide .duvan2 {
+    left: 190px;
+  }
+    #tre .swiper-slide .vanessa2 {
+    left: 200px;
+  }
+    #tre .swiper-slide .cesar2 {
+    left: 200px;
+  }
+    #foo{
+       padding-left: 30em;
+  }
+
+}
+
+
+@media only screen and (max-width: 769px) {
+
+    header #primeraparte{
+    padding-top: 3em;
+        margin-bottom: 3em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#primeraparte img{
+      width: 10em;
+}
+
+#primeraparte #barras{
+    width: 1em !important;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem !important;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+    font-family: titulos !important;
+}
+.boton1{
+    background: none;
+    color: #fdd937;
+}
+
+.boton1 svg{
+    width: 6em;
+    height: 1.5em;
+    position: absolute;
+}
+
+.boton1 rect{
+    width: 6em;
+    height: 1.5em;
+    stroke: #fdd937;
+    stroke-width: 5px;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    transition: .6s ease all;
+}
+.boton1:hover rect{
+    stroke-dashoffset: 0;
+}
+.boton2{
+    background: none;
+    color: #fdd937;
+}
+
+.boton2 svg{
+    width: 6em;
+    height: 1.5em;
+    position: absolute;
+}
+
+.boton2 rect{
+    width: 6em;
+    height: 1.5em;
+    stroke: #fdd937;
+    stroke-width: 5px;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    transition: .6s ease all;
+}
+
+#tr{
+    scroll-behavior: none;
+    background-color: #000000;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+#tr p{
+   color:#fdd937 ;
+   font-size: 2.618rem;
+  
+  align-items: center;
+  text-align: center;
+}
+
+#tr h1{
+   color:#fdd937 ;
+   font-size: 7rem;
+   padding-bottom: -0.2em;
+  align-items: center;
+  text-align: center;
+}
+#tre{
+    margin-bottom: 5em;
+}
+ .swiper {
+    
+      width: 70em;
+      height: 40em;
+    }
+            #tre .swiper-slide .daniel2 {
+        width: 36em !important;
+        position: absolute;
+        left: 190px;
+        bottom: 0;
+    }
+
+           #tre .swiper-slide .marcela2 {
+        width: 36em !important;
+        position: absolute;
+    left: 190px;
+        bottom: 0;
+
+    }
+       #tre .swiper-slide .andres2 {
+        width: 36em !important;
+        position: absolute;
+    left: 190px;
+        bottom: 0;
+
+    }
+        #tre .swiper-slide .duvan2 {
+        width: 36em !important;
+        position: absolute;
+    left: 190px;
+        bottom: 0;
+
+    }
+     #tre .swiper-slide .vanessa2 {
+        width: 36em !important;
+        position: absolute;
+    left: 190px;
+        bottom: 0;
+
+    }
+       #tre .swiper-slide .cesar2 {
+        width: 36em !important;
+        position: absolute;
+    left: 190px;
+        bottom: 0;
+
+    }
+
+    #grupal{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#grupal img{
+    width: 65em !important;
+
+}
+
+#foo {
+    text-align: center;
+    padding-left: 2em !important;
+        padding-bottom: 10em;
+}
+.footer-section h3 {
+    font-size: 2.5rem;
+    margin-bottom: 15px ;
+    color: #000000; 
+}
+.footer-section p, .footer-section ul {
+    font-size: 2rem;
+    line-height: 1.6;
+}
+
+.social-icons img{
+        cursor: pointer;
+    width: 3em;
+    transition: color 0.3s ease;
+    margin-left: 13em;
+    transition: 0.5s ease;
+}
+
+ }
+@media only screen and (max-width: 600px){
+header{
+    margin-top: 4em !important;
+}
+     header #primeraparte{
+margin-bottom: 3em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#primeraparte img{
+    width: 5em;
+}
+
+#primeraparte #barras{
+    width: 1em !important;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem !important;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+    font-family: titulos !important;
+}
+.boton1{
+    background: none;
+    color: #fdd937;
+}
+
+.boton1 svg{
+    width: 6em;
+    height: 1.5em;
+    position: absolute;
+}
+
+.boton1 rect{
+    width: 6em;
+    height: 1.5em;
+    stroke: #fdd937;
+    stroke-width: 5px;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    transition: .6s ease all;
+}
+.boton1:hover rect{
+    stroke-dashoffset: 0;
+}
+.boton2{
+    background: none;
+    color: #fdd937;
+}
+
+.boton2 svg{
+    width: 6em;
+    height: 1.5em;
+    position: absolute;
+}
+
+.boton2 rect{
+    width: 6em;
+    height: 1.5em;
+    stroke: #fdd937;
+    stroke-width: 5px;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    transition: .6s ease all;
+}
+.boton2:hover rect{
+    stroke-dashoffset: 0;
+}
+
+
+#tr{
+    scroll-behavior: none;
+    background-color: #000000;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+#tr p{
+   color:#fdd937 ;
+   font-size: 1.8rem;;
+  
+  align-items: center;
+  text-align: center;
+}
+
+#tr h1{
+   color:#fdd937 ;
+   font-size: 4rem;
+   padding-bottom: -0.2em;
+  align-items: center;
+  text-align: center;
+}
+
+#tre{
+    margin-bottom: 5em;
+}
+ .swiper {
+    
+      width: 39em;
+      height: 19em;
+    }
+        #tre .swiper-slide .daniel2 {
+        width: 15em !important;
+        position: absolute;
+        left: 120px;
+        bottom: 0;
+    }
+
+        #tre .swiper-slide .marcela2 {
+        width: 15em !important;
+        position: absolute;
+    left: 120px;
+        bottom: 0;
+
+    }
+       #tre .swiper-slide .andres2 {
+           width: 15em !important;
+        position: absolute;
+    left: 120px;
+        bottom: 0;
+
+    }
+        #tre .swiper-slide .duvan2 {
+         width: 15em !important;
+        position: absolute;
+    left: 120px;
+        bottom: 0;
+
+    }
+     #tre .swiper-slide .vanessa2 {
+          width: 15em !important;
+        position: absolute;
+    left: 120px;
+        bottom: 0;
+
+    }
+       #tre .swiper-slide .cesar2 {
+        width: 15em !important;
+        position: absolute;
+    left: 120px;
+        bottom: 0;
+
+    }
+
+    #grupal{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#grupal img{
+    width: 35em !important;
+
+}
+    #foo {
+        padding-top: 2em !important;
+    padding-bottom: 4em !important;
+    padding-left: 2em;
+    text-align: center;
+        padding-bottom: 10em;
+}
+.footer-section h3 {
+    font-size: 2rem;
+    margin-bottom: 15px ;
+    color: #000000; 
+}
+.footer-section p, .footer-section ul {
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+.social-icons img{
+        cursor: pointer;
+    width: 2em;
+    transition: color 0.3s ease;
+    margin-left: 5.5em;
+    transition: 0.5s ease;
+}
+
+}
